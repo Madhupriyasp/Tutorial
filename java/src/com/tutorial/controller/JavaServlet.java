@@ -11,5 +11,10 @@ public class JavaServlet {
 
 			return "HomePage";
 		}
+		@RequestMapping("/getSignupPage")
+		public String signUpPage(HttpServletRequest req) {
+
+			return "TutorialSignup";
+		}
 }
 		

@@ -18,7 +18,7 @@ $(document).ready(function() {
     elem.append($ripple);
   };
   
-  $(document).on("click", ".login__submit", function(e) {
+  $(document).on("click", ".loginSubmit", function(e) {
     if (animating) return;
     animating = true;
     var that = this;

@@ -134,7 +134,7 @@ input, button {
   background: transparent;
   color: #FDFCFD;
 }
-.login__submit {
+.loginSubmit {
   position: relative;
   width: 100%;
   height: 4rem;
@@ -148,7 +148,7 @@ input, button {
   -webkit-transition: width 0.3s 0.15s, font-size 0.1s 0.15s;
   transition: width 0.3s 0.15s, font-size 0.1s 0.15s;
 }
-.login__submit:after {
+.loginSubmit:after {
   content: "";
   position: absolute;
   top: 50%;
@@ -165,16 +165,16 @@ input, button {
   transition: opacity 0.1s 0.4s;
   opacity: 0;
 }
-.login__submit.processing {
+.loginSubmit.processing {
   width: 4rem;
   font-size: 0;
 }
-.login__submit.processing:after {
+.loginSubmit.processing:after {
   opacity: 1;
   -webkit-animation: rotate 0.5s 0.4s infinite linear;
           animation: rotate 0.5s 0.4s infinite linear;
 }
-.login__submit.success {
+.loginSubmit.success {
   -webkit-transition: opacity 0.1s 0.3s, background-color 0.1s 0.3s, -webkit-transform 0.3s 0.1s ease-out;
   transition: opacity 0.1s 0.3s, background-color 0.1s 0.3s, -webkit-transform 0.3s 0.1s ease-out;
   transition: transform 0.3s 0.1s ease-out, opacity 0.1s 0.3s, background-color 0.1s 0.3s;
@@ -183,7 +183,7 @@ input, button {
           transform: scale(30);
   opacity: 0.9;
 }
-.login__submit.success:after {
+.loginSubmit.success:after {
   -webkit-transition: opacity 0.1s 0s;
   transition: opacity 0.1s 0s;
   opacity: 0;

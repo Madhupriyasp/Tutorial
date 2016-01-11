@@ -22,31 +22,61 @@
     <div class="cont">
   <div class="demo">
     <div class="login">
-      <div class="login__check"></div>
-      <div class="login__form">
-        <div class="login__row">
-          <svg class="login__icon name svg-icon" viewBox="0 0 20 20">
-            <path d="M0,20 a10,8 0 0,1 20,0z M10,0 a4,4 0 0,1 0,8 a4,4 0 0,1 0,-8" />
-          </svg>
+     
+          <form action="/storeRegisterDetail" method="post">
+            <div class="login__row">
+          
          
-          <input type="text" class="login__input name" placeholder="Username"/>
+          <input type="text" class="login__input name" id="registered_name" name="name" placeholder="Name"/>
+        </div>
+          <div class="login__row">
+          
+          <input type="text" class="login__input name" id="registered_email" name="email"placeholder="Email Address"/>
+        </div>
+          <div class="login__row">
+          
+         
+          <input type="text" class="login__input name" id="registered_uname"  name="username" placeholder="Username"/>
+        </div>
+        <div class="login__row">
+          
+         
+          <input type="password" class="login__input name"  id="registered_pwd" name="password"placeholder="Password"/>
         </div>
        
         <div class="login__row">
-          <svg class="login__icon pass svg-icon" viewBox="0 0 20 20">
-            <path d="M0,20 20,20 20,8 0,8z M10,13 10,16z M4,8 a6,8 0 0,1 12,0" />
-          </svg>
+          
        
-          <input type="password" class="login__input pass" placeholder="Password"/>
+          <input type="password" class="login__input pass" id="registered_cpwd" name="con_password" placeholder="Confirm Password"/>
        
         </div>
-        <button type="button" class="loginSubmit">Sign in</button>
-        <p class="login__signup">Don't have an account? &nbsp;<a href="/getSignupPage">Sign up</a></p>
+         <div class="login__row">
+          
+         
+          <input type="text" class="login__input name" id="registered_mobile" name="mobile"placeholder="Mobile Number"/>
+        </div>
+         <div class="login__row">
+          
+         
+          <input type="text" class="login__input name" id="registered_city" name="city"placeholder="City"/>
+        </div>
+         <div class="login__row">
+          
+         
+          <input type="text" class="login__input name" id="registered_state" name ="state"placeholder="State"/>
+          </div>
+           <div class="login__row">
+          
+         
+          <input type="text" class="login__input name" id="registered_country" name = "country"placeholder="Country"/>
+              </div>
+            <button type="submit" class="login__submit" onclick="storeData()" style="margin-top:10%">Sign Up</button>
+
+      </form>
       </div>
     </div>
   
   </div>
-</div>
     
     
     
